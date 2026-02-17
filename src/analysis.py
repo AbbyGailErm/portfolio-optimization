@@ -43,7 +43,7 @@ def calculate_risk_metrics(returns_df):
     metrics['VaR_95'] = var_95
     metrics['Sharpe_Ratio'] = sharpe_ratio
     
-    return pd.DataFrame(metrics)
+    return pd.DataFrame(metrics, index=[0])
 
 def detect_outliers(returns_df, threshold=3):
     """
