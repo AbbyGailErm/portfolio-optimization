@@ -5,7 +5,14 @@ seaborn
 scikit-learn
 statsmodels
 yfinance
+
 scipy
 pmdarima
 joblib
 tensorflow
+=======
+tensorflow
+pmdarima
+scipy
+pytest
+streamlit
